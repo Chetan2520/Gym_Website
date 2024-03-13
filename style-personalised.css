@@ -1,0 +1,42 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  font-size: 1.5rem;
+
+}
+.services-container{
+    height: 34rem;
+    width: 100%;
+    /* line-height: 2rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+    background: linear-gradient(to bottom,cyan,rgb(160, 255, 255),white);
+    border-radius:  10rem;
+
+}
+.big-font{
+    background-color: white;
+    color: rgb(0, 0, 0);
+
+    font-size: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+
+  }
+  .small-font{
+    font-size: 1rem;
+    color: black;
+    background: linear-gradient(to bottom,cyan,rgb(160, 255, 255),white);
+
+  }
